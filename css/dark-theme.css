@@ -1,0 +1,467 @@
+/*------------------------------Dark theme css manages color scheme, images links etc.---------------------------*/
+
+/*global */
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #dd430b;
+}
+.btn-outline {
+    color: white;
+    border: solid 2px white;
+    background: transparent;
+}
+.btn-primary {
+    color: white;
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #1a242f;
+    border-color: #161f29;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+}
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+    background-color: #ff4400;
+    border-color: #ff4400;
+}
+.btn-primary .badge {
+    color: #2C3E50;
+    background-color: white;
+}
+.btn-success {
+    color: white;
+    background-color: #ff4400;
+    border-color: #ff4400;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+    color: white;
+    background-color: #dd430b;
+    border-color: #dd430b;
+}
+.btn-success .badge {
+    color: #ff4400;
+    background-color: white;
+}
+.btn-social {
+    border: 0px solid white;
+    background: #ff4400;
+    color: #343333;
+}
+.btn-social:hover,
+.btn-social:focus,
+.btn-social:active,
+.btn-social.active {
+    background: #ffffff;
+    color: #ff4400;
+    border: 0px solid white;
+}
+.btn-xl {
+    color: #fff;
+    background-color: #ff4400;
+    border-color: #ff4400;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active {
+    color: #fff;
+    background-color: #dd430b;
+    border-color: #dd430b;
+}
+.take-look-arrow a {
+    color: #323232;
+}
+.no-background a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: #ff4400;
+}
+.no-background a {
+    color: #ffffff;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff4400;
+    border-color: #ff4400;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    color: #fff;
+    background-color: #dd430b;
+    border-color: #dd430b;
+}
+.form-control:focus {
+    border-color: #ff4400;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+.form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #dd430b;
+    border-color: #dd430b;
+}
+/* header Section styles */
+
+header {
+    background-color: #fff;
+    background-image: url("../img/dark_hero.png");
+    color: white;
+}
+header .intro-text .name {
+    color: #303233;
+}
+header .intro-text .skills {
+    color: #323232;
+}
+.navbar-custom .navbar-brand {
+    color: #ff4400 !important;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: #ff4400;
+}
+@media (max-width: 767px) {
+    .navbar-custom .navbar-nav li a {
+        color: white;
+    }
+    .navbar-header {
+        background-color: rgba(41,41,41, 0.9);
+    }
+    .navbar-custom {
+        background-color: transparent;
+    }
+    .navbar-collapse {
+        background-color: rgba(41,41,41, 0.9);
+        /*to change the background if you desire*/
+    }
+}
+@media (min-width: 768px) {
+    .navbar-custom {
+        background-color: rgba(41,41,41,1);
+    }
+}
+.navbar-custom .navbar-nav li a {
+    color: #adafb1;
+}
+.navbar-custom .navbar-nav li a:hover {
+    color: #ff4400 !important;
+}
+.navbar-custom .navbar-nav li.active a {
+    color: #ff4400;
+    background: transparent;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+    color: #ff4400 !important;
+    background: transparent;
+}
+.navbar-custom .navbar-toggle {
+    color: #a3a8aa;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #ff4400;
+    color: white;
+    border-color: #ff4400;
+}
+/* featured website */
+
+#featured-website {
+    background-color:#2a2929;
+}
+#featured-website p {
+    color: #989a9d;
+}
+#featured-website h2 {
+    color: #ffffff;
+}
+#featured-website h3 {
+    color: #ffffff;
+}
+/* services */
+
+#services {
+    background-color: #fff;
+    background-image: url(../img/dark_services.png);
+}
+#services h2.section-heading {
+    color: #52575c;
+}
+#services h3.section-subheading,
+#services p {
+    color: #989a9d;
+}
+h4.service-heading {
+    color: #444c51;
+}
+/* Portfolio */
+
+section#portfolio {
+    background-color: #2a2929;
+}
+section#portfolio h2.section-heading,
+section#team h2.section-heading {
+    color: #ffffff;
+}
+section#portfolio .section-subheading,
+section#portfolio p,
+section#team .section-subheading {
+    color: #989a9d;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 10px solid #ff4400;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    color: white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    color: #ff4400;
+}
+#portfolio .portfolio-item .portfolio-caption {
+    background-color: #222222;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+    color: #ff4400;
+}
+#portfolio .portfolio-item .portfolio-caption p {
+    color: #a3a8aa;
+}
+.portfolio-modal .modal-content {
+    background-color: #222222;
+}
+.portfolio-modal .modal-content h2 {
+    color: #ffffff;
+}
+.portfolio-modal .modal-content p {
+    color: #989a9d;
+}
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .lr .rl {
+    background-color: #ff4400;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(24, 188, 156, 0.9);
+}
+
+/* testimonial */
+
+#testimonials:before {
+    background-color: #fff;
+    background-image: url(../img/Pineapple_qoute.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: 33%;
+    opacity: 0.4;
+}
+#testimonials-carousel .owl-stage-outer .owl-stage .owl-item .item .caption h3 {
+    color: #ff4400;
+}
+#testimonials-carousel .owl-stage-outer .owl-stage .owl-item .item .caption p {
+    color: #989a9d;
+}
+#testimonials-carousel .owl-stage-outer .owl-stage .owl-item .item .caption .testi-img p {
+    color: #444c51;
+}
+#testimonials-carousel .owl-stage-outer .owl-stage .owl-item .item .caption .testi-img p span {
+    color: #d0d1d2;
+}
+#testimonials-carousel .owl-nav,
+#testimonials-carousel .owl-nav .owl-prev,
+#testimonials-carousel .owl-nav .owl-next {
+    color: #444c51;
+}
+#testimonials-carousel .owl-nav .owl-next:hover i,
+#testimonials-carousel .owl-nav .owl-prev:hover i {
+    border: 1px solid #3d3d3d;
+    color: #ff4400;
+}
+.owl-dot {
+    border: 2px solid #ff4400;
+    background: #ff4400;
+}
+.owl-dot.active {
+    background: transparent;
+    border: 2px solid #ff4400;
+}
+/* About Section */
+
+section#about {
+    background-color: #343333;
+}
+section#about h2 {
+    color: #ffffff;
+}
+section#about h3 {
+    color: #ffffff;
+}
+section#about p {
+    color: #989a9d;
+}
+/* team section */
+
+section#team {
+    background-color: #2c2c2c;
+}
+.shadow-effect {
+    background: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+.testimonial-name {
+    background: #3190E7;
+    color: #fff;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+}
+#team-carousel.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+#team-carousel.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background: #28CB75;
+}
+#team-carousel.owl-carousel.owl-theme .owl-dots .owl-dot span {
+    background: #C4C4CC;
+}
+#team-carousel .owl-stage-outer .owl-stage .owl-item .item .thumbnail span {
+    background: #000000;
+}
+#team-carousel .owl-stage-outer .owl-stage .owl-item.active.center .item .thumbnail span {
+    background: #ff4400;
+    opacity: 0.7;
+}
+.owl-item .item .thumbnail p {
+    color: #fff;
+}
+#team-carousel .owl-stage-outer .owl-stage .owl-item .item .thumbnail h3 {
+    color: #fff;
+}
+#team-carousel .owl-nav,
+#team-carousel .owl-nav .owl-prev,
+#team-carousel .owl-nav .owl-next {
+    color: #fff;
+}
+#team-carousel .owl-nav .owl-next:hover i,
+#team-carousel .owl-nav .owl-prev:hover i {
+    border: 1px solid #3d3d3d;
+    color: #ff4400;
+}
+
+/* contact section */
+
+#contact {
+    background: linear-gradient(to bottom, #2c2c2c 0%,#2c2c2c 16%,#2c2c2c 16%,#343333 16%,#343333 100%);
+}
+.floating-label-form-group label {
+    color: #adafb1;
+}
+.contact-wrap {
+    background-color: #ffffff;
+}
+#contact h2.section-heading {
+    color: #444c51;
+}
+#contact h3.section-subheading {
+    color: #b2b4b7;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    background-color:#f7f7f7;
+    border: 1px solid #dbdbdb;
+}
+.floating-label-form-group:not(:first-child) {
+    border-left: 1px solid #eeeeee;
+}
+.floating-label-form-group-with-focus label {
+    color: #ff4400;
+}
+form .row:first-child .floating-label-form-group {
+    border-top: 0px solid #eeeeee;
+}
+@media (max-width: 600px) {
+    .help-block ul li {
+        color: #ff4400;
+    }
+}
+@media (min-width: 768px) {
+    #contact .btn {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+/*footer section  */
+
+footer h3 {
+    color: #adafb1;
+}
+footer p {
+    color: #adafb1;
+}
+footer a {
+    color: #ff4400;
+}
+footer .footer-above {
+    background-color: #3d3d3d;
+}
+footer .footer-below {
+    background-color:#3d3d3d;
+    color: #adafb1;
+}
