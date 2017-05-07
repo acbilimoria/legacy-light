@@ -148,6 +148,7 @@ div#maincontent {
     }
     #services {
         background-position: center;
+		background-blend-mode: color-burn;
     }
 }
 /* header Section styles */
@@ -703,6 +704,7 @@ section#about p {
     #about .list-inline {
         text-align: center;
     }
+#about .container .row div img{margin:0 auto;}
 }
 
 /* team section */

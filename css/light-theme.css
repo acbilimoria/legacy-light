@@ -111,7 +111,7 @@ fieldset[disabled] .btn-success.active {
     border-color: #dd430b;
 }
 .take-look-arrow a {
-    color: #323232;
+    color: #ffffff;
 }
 .no-background a:hover {
     background-color: transparent;
@@ -159,15 +159,15 @@ fieldset[disabled] .btn-success.active {
 /* header Section styles */
 
 header {
-    background-color: #fff;
-    background-image: url("../img/dark_hero.png");
+    background-color: #3d3d3d;
+    background-image: url("../img/light_hero.png");
     color: white;
 }
 header .intro-text .name {
-    color: #303233;
+    color: #ffffff;
 }
 header .intro-text .skills {
-    color: #323232;
+    color: #dddddd;
 }
 .navbar-custom .navbar-brand {
     color: #ff4400 !important;
@@ -243,7 +243,7 @@ header .intro-text .skills {
 /* services */
 
 #services {
-    background-color: #fff;
+    background-color:#f7f7f7;
     background-image: url(../img/dark_services.png);
 }
 #services h2.section-heading {
@@ -308,7 +308,7 @@ section#team .section-subheading {
 /* testimonial */
 
 #testimonials:before {
-    background-color: #fff;
+    background-color: #f7f7f7;
     background-image: url(../img/Pineapple_qoute.png);
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -362,7 +362,7 @@ section#about p {
 /* team section */
 
 section#team {
-    background-color: #ffffff;
+    background-color:#f7f7f7;
 }
 .shadow-effect {
     background: #fff;
@@ -407,24 +407,24 @@ section#team {
 /* contact section */
 
 #contact {
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 16%, #ffffff 16%, #f1f1f1 16%, #f1f1f1 100%);
+    background: linear-gradient(to bottom, #f7f7f7 0%, #f7f7f7 16%, #f7f7f7 16%, #ffffff 16%, #ffffff 100%);
 }
 .floating-label-form-group label {
     color: #adafb1;
 }
 .contact-wrap {
-    background-color: #f7f7f7;
+    background-color: #3d3d3d;
 }
 #contact h2.section-heading {
-    color: #343333;
+    color: #ffffff;
 }
 #contact h3.section-subheading {
     color: #b2b4b7;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-    background-color: #ffffff;
-    border: 1px solid #dbdbdb;
+    background-color: #343333;
+    border: 1px solid #424242;
 }
 .floating-label-form-group:not(:first-child) {
     border-left: 1px solid #eeeeee;
@@ -458,9 +458,9 @@ footer a {
     color: #ff4400;
 }
 footer .footer-above {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
 }
 footer .footer-below {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     color: #adafb1;
 }
